@@ -1,4 +1,4 @@
-# sensationsandbox
+# sensationSandbox
 >A place to play with things.
 
 Hello @Iko - run 'npm run serve', after that, you're ready to go!
