@@ -10,6 +10,7 @@ npm install -g @vue/cli
 after that, you're ready to go!
 Use `npm run serve` to host the development server.`
 
+---
 **Note-to-self:** For personal reference, you stored the project in the Windows Filesystem in the Git folder. You can navigate to this in the ubuntu console by using the following path: /mnt/c/User/mailn/...
 
 ## Project setup
