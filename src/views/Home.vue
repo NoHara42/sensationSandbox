@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/ikomeme.jpeg">
     <HelloWorld msg="Welcome to Tech Tavern"/>
   </div>
 </template>

@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img class="images" alt="Nani" src="../assets/ikomeme.jpeg">
     <h1>{{ msg }}</h1>
     <p>
       Iko and Ned's digital tavern. We fuck shit up here.
@@ -65,5 +66,9 @@ a {
 }
 .canvas {
   justify-content: center;
+}
+.images {
+  height:300px;
+  width:300px;
 }
 </style>
