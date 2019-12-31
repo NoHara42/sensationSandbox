@@ -1,11 +1,10 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <div id="p5Canvas" class="canvas"></div>
     <p>
       Iko and Ned's digital tavern. We fuck shit up here.
     </p>
-    <div id="p6Canvas" class="canvas"></div>
+    <div id="p5Canvas" class="canvas"></div>
   </div>
 </template>
 
@@ -44,8 +43,6 @@ export default class HelloWorld extends Vue {
    }    // NOTE: Use p5 as an instance mode
  const P5 = require('p5');
  let myP5 = new P5(script, 'p5Canvas');
-
- let myP6 = new P5(script, 'p6Canvas');
 
 
 </script>
