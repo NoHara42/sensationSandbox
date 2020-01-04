@@ -1,17 +1,18 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Tech Tavern"/>
+    <h1>Welcome to Tech Tavern!</h1>
+    <MovingCircle></MovingCircle>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MovingCircle from '@/components/MovingCircle.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    MovingCircle
   }
 }
 </script>

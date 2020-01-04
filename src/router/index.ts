@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Home2 from '../views/Home2.vue'
+import IkosCave from '../views/IkosCave.vue'
 import EventCalendar from '../views/EventCalendar.vue'
+import TheInterned from '../views/TheInterned.vue'
 
 Vue.use(VueRouter)
 
@@ -21,14 +22,19 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/home2',
-    name: 'home2',
-    component: Home2
+    path: '/IkosCave',
+    name: 'IkosCave',
+    component: IkosCave
+  },
+  {
+    path: '/TheInterned',
+    name: 'TheInterned',
+    component: TheInterned
   },
   {
     path: '/eventcalendar',
     name: "eventcalendar",
-    component: EventCalendar 
+    component: EventCalendar
   }
 ]
 

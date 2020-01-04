@@ -14,7 +14,7 @@
 import { p5circles } from '@/components/MovingCircle.vue'
 
 export default {
-  name: 'home2',
+  name: 'IkosCave',
   components: {}
 }
 </script>
